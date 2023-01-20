@@ -15,7 +15,8 @@ function draw() {
   textSize(38);
   fill(255,255,255);
   stroke(0,0,0);
-  text(texto, 320 - (8 * texto.length), 350, 630)
+  text(texto, 10, 300, 640, 150)
+  textAlign(CENTER);
 }
 
 function cambiarFiltro(){
